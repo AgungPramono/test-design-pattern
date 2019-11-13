@@ -100,9 +100,9 @@ class HouseDirectorBuilder {
             case "SEDERHANA":
                 return new HouseDirector(1, 1).build();
             case "BIASA":
-                return new HouseDirector(20, 20).halaman(Boolean.TRUE).build();
+                return new HouseDirector(2, 10).halaman(Boolean.TRUE).build();
             case "MEWAH":
-                return new HouseDirector(20, 20).halaman(Boolean.TRUE).kolamRenang(Boolean.TRUE).build();
+                return new HouseDirector(100, 100).halaman(Boolean.TRUE).kolamRenang(Boolean.TRUE).build();
             default:
                 return new HouseDirector(1, 1).build();
         }
