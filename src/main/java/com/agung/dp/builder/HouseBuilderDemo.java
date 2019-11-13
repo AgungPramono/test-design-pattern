@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.agung.dp.bp;
+package com.agung.dp.builder;
 
 import lombok.Data;
 import lombok.Getter;
